@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  /* width: 1000px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa; /* 배경색을 전체 화면에 적용 */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  max-width: 1400px; /* 최대 너비를 1200px로 설정 */
+  margin: 0 auto; /* 가운데 정렬을 위해 좌우 여백을 자동으로 설정 */
+  padding: 20px; /* 내용과 App 컴포넌트 주위의 간격을 설정 */
+}

@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-login {
+  font-size: 0.8rem;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-login footer {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 3rem;
+}
+
+.form-login img {
+  width: 100%;
+  object-fit: cover;
+  margin: 0.5rem;
+}
+
+.form-login h1 {
+  margin-bottom: 1.5rem;
+}
+
+.form-check-input {
+  margin-right: 0.4rem;
+}
+
+.form-check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+.form-floating input {
+  width: 100%
+}
+
+.form-control {
+  height: 54px; /* input 칸들의 세로 길이를 높이 */
+}
+
+.forgot-password {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-left: auto; /* 오른쪽으로 정렬 */
+}
+
+.btn-primary {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 3rem; 
+  display: block; 
+}
+
+.btn-secondary {
+  width: 100%;
+  margin-top: 0.7rem;
+  display: block;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}

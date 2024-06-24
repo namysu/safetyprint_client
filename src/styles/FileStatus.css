@@ -1,0 +1,186 @@
+.containerf {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.contentf {
+  margin-top: 120px; /* Navbar의 높이만큼 여백 추가 */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title1f {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tablef {
+  width: 560px;
+  border-collapse: separate;
+  border-spacing: 0 14px; /* Space between rows */
+}
+
+.tablef th, .tablef td {
+  padding-left: 42px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.tablef th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.document-rowf {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+
+.document-rowf button {
+  /* padding: 10px 20px; */
+  border: none;
+  cursor: pointer;
+  /* background-color: #f2f2f2; */
+  color: #000;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.document-rowf button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.document-rowf:hover {
+  transform: scale(1.02);
+  background-color: #d1ecf1;
+}
+
+.document-rowf.no-hover {
+  cursor: default;
+  transition: none;
+  background-color: #fff;
+}
+
+.document-rowf.no-hover:hover {
+  transform: none;
+  background-color: #fff;
+}
+
+.document-statusf {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.document-statusf.submittable {
+  background-color: #4caf50;
+  color: white;
+}
+
+.document-statusf.modifiable {
+  background-color: #ff9800;
+  color: white;
+}
+
+.document-statusf.unsubmittable {
+  background-color: #f44336;
+  color: white;
+}
+
+.document-status-2f {
+  display: inline-flexbox;
+  /* padding: 5px 10px; */
+  /* margin-top: 14px; */
+  height: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.document-status-2f.submittable {
+  background-color: #4caf50;
+  color: white;
+}
+
+.document-status-2f.modifiable {
+  background-color: #ff9800;
+  color: white;
+}
+
+.document-status-2f.unsubmittable {
+  background-color: #f44336;
+  color: white;
+}
+
+.file-infof {
+  margin-top: 20px;
+}
+
+.file-infof p {
+  margin: 0;
+}
+
+.file-namef {
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.upload-methodsf {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.upload-methods-backgroundf {
+  border: 2px dashed grey;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: transparent;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.upload-methodsf button {
+  /* padding: 10px 20px; */
+  border: none;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.upload-methodsf button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.upload-sectionf {
+  margin-top: 10px;
+}
+
+.upload-sectionf input[type="file"] {
+  padding: 10px;
+}
